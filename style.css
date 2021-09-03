@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -18,12 +18,13 @@ body {
     gap: 2rem;
 }
 
+
 .box-wrapper {
     background: #fff;
     height: 350px;
     max-width: 500px;
     border-radius: 5px;
-    box-shadow: 0 3px 6px rgb(0 0 0 16%), 0 3px 6px rgb(0 0 0 / 23%);
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
     display: flex;
     justify-content: center;
     padding: 2rem;
@@ -84,7 +85,7 @@ body {
     left: -5px;
     height: 50px;
     width: 50px;
-    box-shadow:  -10px 5px 0 2px #fff;
+    box-shadow: -10px 5px 0 2px #fff;
     transform: rotate(-60deg);
     border-radius: 50%;
 }
@@ -95,8 +96,8 @@ body {
 .star-container .star,
 .star-container .star::before,
 .star-container .star::after {
-    height: 30px;
     width: 30px;
+    height: 30px;
     background: #fff;
 }
 
@@ -136,12 +137,13 @@ body {
     transform: rotate(75deg);
 }
 
+
 .surya,
 .surya::before,
 .surya::after {
     background: #fff;
-    height: 40px;
     width: 40px;
+    height: 40px;
 }
 
 .surya {
@@ -179,5 +181,5 @@ body {
 }
 
 .text a:hover {
-    color: #003893;
+    color: #003893; 
 }
